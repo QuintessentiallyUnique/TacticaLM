@@ -1,0 +1,11 @@
+inference:
+  temperature: 0.1
+  top_p: 0.9
+  max_new_tokens: 400
+  do_sample: false
+  repetition_penalty: 1.1
+  
+  model:
+    base: "Qwen/Qwen3-4B-Instruct-2507"
+    adapter: "models/adapters/tacticalm-v2"
+    load_in_4bit: true

@@ -1,0 +1,38 @@
+data:
+  source: statsbomb
+  statsbomb:
+    competitions:
+      - competition_id: 43
+        season_id: 106
+        name: "FIFA World Cup 2022"
+    max_matches_dev: 30
+    max_matches_full: 300
+    include_360: true
+  
+  paths:
+    raw: data/raw
+    interim: data/interim
+    processed: data/processed
+    evaluation: data/evaluation
+  
+  coordinate_system:
+    pitch_length: 120
+    pitch_width: 80
+    origin: top_left
+    attacking_direction: left_to_right
+    note: "StatsBomb events are already standardized per-event"
+  
+  validation:
+    min_events_per_match: 500
+    max_events_per_match: 5000
+    coordinate_bounds:
+      x_min: 0
+      x_max: 120
+      y_min: 0
+      y_max: 80
+  
+  splitting:
+    seed: 42
+    train_ratio: 0.70
+    dev_eval_ratio: 0.15
+    final_test_ratio: 0.15

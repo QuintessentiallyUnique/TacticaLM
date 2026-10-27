@@ -1,0 +1,379 @@
+[
+  {
+    "example_id": "3e906e67-03bd-43df-9b56-f79bed039d4f",
+    "category": "pressing_analysis",
+    "question": "Analyze England's defensive actions in the attacking third.",
+    "generated_answer": "England's defensive actions in the attacking third were characterized by a relatively low level of pressure and a focus on maintaining structure rather than aggressive pressing. The team applied only 29 pressures in the attacking third, which is a significant portion of their total 103 pressures (29 in the attacking third, 51 in the middle third). This suggests that England prioritized defensive stability in the final third over active pressure, indicating a more conservative defensive approach. \n\nThe team recorded 4 high regains in the attacking third, which indicates that they were able to recover possession in key moments, likely through timely defensive transitions or strong defensive positioning. However, the absence of a higher pressure count\u2014especially compared to the 51 pressures in the middle third\u2014implies that England did not actively pursue or disrupt the opponent's build-up in the final third. \n\nAdditionally, England entered the penalty area 20 times, which suggests a high level of forward penetration, yet they only generated 0.46 xG from open play and failed to score. This may reflect that their entries were not consistently converted into high-quality chances, and their defensive actions in the attacking third may have been reactive rather than proactive. \n\nThe fact that England had 8 shots with 3 on target and only 0 goals, combined with their 16.86 PPDA (a lower value indicating more aggressive pressing), further supports the idea that their pressing was not intense in the attacking third. A PPDA of 16.86 is below the typical threshold for aggressive pressing (often above 20), suggesting a more defensive, patient style in that area. \n\nIn summary, England's defensive actions in the attacking third were relatively passive, with limited pressing and a focus on maintaining possession and structure. Their 29 pressures and 4 high regains suggest a defensive presence, but not an aggressive one, indicating a cautious and organized approach to defending in the final third.",
+    "metrics": {
+      "factual_accuracy": 1.0,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 16,
+          "matched": 16,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 11,
+          "unsupported": 0,
+          "rate": 0.0,
+          "details": []
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 28.71468472480774
+  },
+  {
+    "example_id": "f7936896-ebc2-41a3-8d4c-5c75df778300",
+    "category": "evidence_extraction",
+    "question": "What evidence is available regarding Iran's pressing and regains?",
+    "generated_answer": "The evidence available regarding Iran's pressing and regains indicates that Iran applied 161 pressures during the match, with 36 of these occurring in the attacking third and 62 in the middle third. This suggests a relatively focused pressing effort, particularly in the middle third, where 62 pressures were recorded. Iran also recorded 14 high regains in the attacking third, indicating that they were actively recovering the ball in key attacking areas. Additionally, Iran had a PPDA (Passing Progression Defensive Action) of 42.25, which is a lower value, suggesting a more aggressive pressing style, as a lower PPDA typically reflects a team that presses more aggressively and frequently. No specific data on the number of regains or their distribution across zones is provided beyond the 14 high regains in the attacking third. Therefore, the pressing and regain data points to an aggressive, midfield- and attacking-third-focused pressing strategy, with a notable number of high regains in the final third.",
+    "metrics": {
+      "factual_accuracy": 1.0,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_coverage": 0.16,
+      "details": {
+        "numerical": {
+          "total_numbers": 7,
+          "matched": 7,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 6,
+          "unsupported": 0,
+          "rate": 0.0,
+          "details": []
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 18.835561513900757
+  },
+  {
+    "example_id": "cc7f1bff-5116-426b-bb2a-c70bf6e935ef",
+    "category": "pressing_analysis",
+    "question": "What do the PPDA and high regain stats indicate about Ghana's pressing?",
+    "generated_answer": "The PPDA (Passing, Possession, and Defensive Actions) statistic for Ghana is 27.69, which is a lower value, indicating a more aggressive pressing style. A lower PPDA suggests that Ghana applied more pressure on the ball, particularly in the attacking third, as they were actively pressing opponents to regain possession or disrupt their build-up play. This is further supported by the fact that Ghana recorded 9 high regains in the attacking third, meaning they successfully regained possession in key areas of the pitch\u2014specifically in the final third\u2014after losing the ball. These high regains suggest that Ghana was not only pressing aggressively but also effectively recovering the ball in dangerous zones, which could have contributed to their ability to transition quickly or maintain pressure.\n\nAdditionally, Ghana applied 23 pressures in the attacking third, which aligns with their aggressive pressing behavior. The combination of a low PPDA and 9 high regains indicates that Ghana was actively and successfully pressing in the final third, attempting to disrupt Ghana\u2019s attacking play and regain possession in critical areas. This pressing intensity, combined with their 140 total pressures (23 in the attacking third), suggests a tactical focus on applying constant pressure to force errors or turnovers, particularly in the final third where the risk of scoring is highest. Therefore, the PPDA and high regain stats together indicate that Ghana employed a proactive, aggressive pressing strategy aimed at disrupting opposition attacks and regaining possession in key areas.",
+    "metrics": {
+      "factual_accuracy": 0.9375,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 0.125,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 6,
+          "matched": 6,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 8,
+          "unsupported": 1,
+          "rate": 0.125,
+          "details": [
+            {
+              "claim": "These high regains suggest that Ghana was not only pressing aggressively but also effectively recovering the ball in dangerous zones, which could have contributed to their ability to transition quickly or maintain pressure.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 25.515770196914673
+  },
+  {
+    "example_id": "40c6f00a-73e9-4d07-a216-a6cc1df338a2",
+    "category": "transition_analysis",
+    "question": "Describe Portugal's counterattacking threat and shots after regains.",
+    "generated_answer": "Portugal's counterattacking threat was minimal, as evidenced by the fact that they launched only 2 counterattacks throughout the match. This suggests a lack of high-intensity transition play, with few opportunities to exploit defensive lapses. Additionally, their counterattacking activity was not supported by a significant number of regains or transitions into the final third. While Portugal recorded 11 high regains in the attacking third, these were not directly linked to counterattacks, as no specific data was provided on the origin or outcome of these regains (e.g., whether they came from defensive transitions or from central builds). \n\nRegarding shots after regains, there is no direct evidence in the provided data to indicate how many shots were taken following regains. The data does mention that Portugal had 11 shots in total, with 5 on target, and that 7 were taken from inside the penalty area. However, no information is given on the sequence or context of these shots\u2014specifically whether any were generated after regains or from open play. Since the data does not specify the origin of the shots or their relationship to regains, it is not possible to assess the effectiveness or frequency of shots following regains. Therefore, based solely on the available evidence, Portugal's counterattacking threat was low, and there is insufficient data to evaluate their shot generation specifically after regains.",
+    "metrics": {
+      "factual_accuracy": 0.7777777777777778,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 0.4444444444444444,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 5,
+          "matched": 5,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 9,
+          "unsupported": 4,
+          "rate": 0.4444444444444444,
+          "details": [
+            {
+              "claim": "Portugal's counterattacking threat was minimal, as evidenced by the fact that they launched only 2 counterattacks throughout the match.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "Regarding shots after regains, there is no direct evidence in the provided data to indicate how many shots were taken following regains.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "Since the data does not specify the origin of the shots or their relationship to regains, it is not possible to assess the effectiveness or frequency of shots following regains.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "Therefore, based solely on the available evidence, Portugal's counterattacking threat was low, and there is insufficient data to evaluate their shot generation specifically after regains.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 23.397660732269287
+  },
+  {
+    "example_id": "950fb0c7-388f-426c-8129-8ff999b37220",
+    "category": "match_summary",
+    "question": "Give an overview of Cameroon's statistics and performance against Brazil.",
+    "generated_answer": "Cameroon's performance against Brazil in the 2022 FIFA World Cup match ended in a 1-0 victory, showcasing a disciplined and structured approach despite being outpossessed. The team controlled only 35.2% of the possession, indicating that Brazil dominated the ball, yet Cameroon managed to create a goal through efficient execution in limited opportunities. Over the course of the match, Cameroon attempted 333 passes with a strong 76.3% completion rate (254 completed), suggesting a high level of passing accuracy and composure, which likely contributed to their ability to maintain possession and build attacks. On average, they completed 15.5 actions per possession sequence, with 75 such sequences, indicating a consistent and organized build-up style, though their overall possession was limited.\n\nCameroon generated 0.38 expected goals (xG) from open play, which was achieved through 7 shots, 3 of which were on target. The team took 5 shots from inside the penalty area and 2 from outside, with 13 entries into the penalty area, suggesting a focused and patient approach to attacking. Despite the low possession, they managed to score a goal, indicating that their attacking efficiency was effective in converting limited chances. The team completed 73 progressive passes and 29 progressive carries, demonstrating a strong ability to move the ball forward in a structured manner, while also making 1 through ball, which may have been a key factor in creating scoring opportunities.\n\nDefensively, Cameroon applied 140 pressures, with 34 in the attacking third and 52 in the middle third, reflecting a proactive pressing strategy. Their PPDA of 18.32 suggests a relatively conservative pressing style (lower values indicate more aggressive pressing), which may have limited their ability to disrupt Brazil\u2019s build-up but also allowed them to maintain a solid defensive structure. They recorded 6 high regains in the attacking",
+    "metrics": {
+      "factual_accuracy": 0.8873517786561265,
+      "numerical_accuracy": 0.9565217391304348,
+      "unsupported_claim_rate": 0.18181818181818182,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 23,
+          "matched": 22,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": "ainst Brazil in the 2022 FIFA World Cup matc",
+              "position": 45
+            }
+          ],
+          "accuracy": 0.9565217391304348
+        },
+        "unsupported": {
+          "total_claims": 11,
+          "unsupported": 2,
+          "rate": 0.18181818181818182,
+          "details": [
+            {
+              "claim": "Despite the low possession, they managed to score a goal, indicating that their attacking efficiency was effective in converting limited chances.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "Their PPDA of 18.32 suggests a relatively conservative pressing style (lower values indicate more aggressive pressing), which may have limited their ability to disrupt Brazil\u2019s build-up but also allowed them to maintain a solid defensive structure.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 28.897690057754517
+  },
+  {
+    "example_id": "5a01570f-9957-43bc-9a5e-4421b6755bc4",
+    "category": "match_summary",
+    "question": "Give an overview of Argentina's statistics and performance against Saudi Arabia.",
+    "generated_answer": "Argentina dominated possession and control throughout the match, maintaining 68.3% possession against Saudi Arabia, indicating a strong tactical presence and ability to dictate the tempo of the game. The team attempted 646 passes with an impressive 83.9% completion rate (542 completed), reflecting a high level of passing accuracy and composure under pressure. On average, Argentina executed 23.9 actions per possession sequence, with 95 such sequences recorded, suggesting a well-structured and efficient build-up game. The team completed 106 progressive passes and 36 progressive carries, highlighting their ability to maintain possession and advance the ball through the midfield and into the final third. This was supported by 47 entries into the final third and 24 entries into the penalty area, indicating consistent forward pressure and a proactive approach in attacking play.\n\nDespite their possession advantage, Argentina's shot creation was relatively limited, with only 15 shots overall\u20146 of which were on target\u2014resulting in a total of 2.49 expected goals (xG). However, they generated 3 high-xG chances (xG \u2265 0.3 per shot), suggesting that their key opportunities were of high quality, though they failed to convert them into goals. The team created 1.65 xG from open play and 0.84 from set pieces, with 11 shots taken from inside the penalty area and 4 from outside, indicating a focus on central and central-attacking play. Despite this, they only scored one goal, which suggests that their finishing or transition from possession to goal was inefficient, despite strong build-up and high xG potential.\n\nDefensively, Argentina applied 107 pressures, with 21 in the attacking third and 45 in the middle third, showing a proactive pressing strategy. They recorded 14 high regains in the attacking third, indicating effective recovery and counter-",
+    "metrics": {
+      "factual_accuracy": 0.9545454545454546,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 0.09090909090909091,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 23,
+          "matched": 23,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 11,
+          "unsupported": 1,
+          "rate": 0.09090909090909091,
+          "details": [
+            {
+              "claim": "Despite this, they only scored one goal, which suggests that their finishing or transition from possession to goal was inefficient, despite strong build-up and high xG potential.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 27.42634606361389
+  },
+  {
+    "example_id": "3fbfba4d-4384-437a-99f6-2152a05091c1",
+    "category": "chance_creation",
+    "question": "Analyze Cameroon's shooting and expected goals (xG) in this match.",
+    "generated_answer": "Cameroon's shooting and expected goals (xG) in this match reflect a low-volume, high-efficiency approach to attacking play. The team attempted 7 shots, with 3 of those on target, indicating a relatively conservative shooting approach. Despite this, they generated 0.38 expected goals (xG) from open play, which suggests that their shots, while not frequent, were well-placed and had a reasonable chance of resulting in goals. This xG figure is consistent with their 1-0 victory, as the single goal they scored aligns with the expected goal value, implying that the shot(s) that found the back of the net were statistically likely to do so.\n\nNotably, Cameroon took 5 shots from inside the penalty area and 2 from outside, indicating a preference for central, high-pressure shooting in the final third. This is supported by their 13 entries into the penalty area and 73 progressive passes, which suggest a structured build-up in the attacking third. However, their xG generation of 0.38 from open play\u2014combined with zero xG from set pieces\u2014suggests that their goal was achieved through direct, unassisted attacking play rather than set-piece opportunities.\n\nThe fact that they only generated 0.38 xG despite 7 shots and 3 on-target efforts implies that their shots were not always high-quality or well-located, but the match result indicates that at least one of those shots was particularly effective. The low number of shots (7) and the relatively small xG value suggest that Cameroon's attacking output was not dominant in terms of volume or quality, but their ability to convert a single high-quality opportunity into a goal was sufficient to secure the win. This highlights a tactical efficiency in goal-scoring rather than a high volume of attacking activity.",
+    "metrics": {
+      "factual_accuracy": 1.0,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 14,
+          "matched": 14,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 10,
+          "unsupported": 0,
+          "rate": 0.0,
+          "details": []
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 24.34173893928528
+  },
+  {
+    "example_id": "4b5f4e46-0ea0-4349-8126-105ebbfae9c3",
+    "category": "transition_analysis",
+    "question": "Analyze Ecuador's performance in transition and counterattacks.",
+    "generated_answer": "Ecuador's performance in transition and counterattacks was limited and ineffective, as evidenced by the statistical data. The team launched only 3 counterattacks throughout the match, indicating a low level of high-intensity transition play. This suggests a lack of immediate transition opportunities or a defensive structure that limited quick transitions from defense to attack. \n\nIn terms of transition dynamics, Ecuador completed 31 progressive carries, which may suggest a moderate level of movement through the midfield, but this does not necessarily translate into effective transition play. The team applied 19 pressures in the attacking third, which is a relatively low number compared to the 47 in the middle third, indicating a more defensive or cautious approach in the final third. This may reflect a lack of aggressive pressing in the final third, which could limit the team's ability to transition quickly from defense to attack.\n\nAdditionally, Ecuador had 9 entries into the final third and 9 entries into the penalty area, which suggests a consistent but not particularly aggressive push into the opponent\u2019s half. However, the fact that they only generated 1 high-xG chance and had only 9 shots overall\u2014with 4 on target\u2014implies that their attacking efforts were not particularly effective, even when they did enter the final third. The absence of cutbacks (0 attempts) and the lack of crosses (9 attempts) further suggest a passive or uncoordinated approach to transition play.\n\nThe team also had a PPDA of 9.15, which is relatively low, indicating a more aggressive pressing style. However, this metric does not directly correlate with transition success, as aggressive pressing is more about defensive intensity than offensive transition. Given that Ecuador only launched 3 counterattacks and had minimal shot creation (1 high-xG chance), it is clear that their transition and counterattack efforts were not impactful. The lack of high-xG chances and the low number of shots from inside the penalty area suggest that even when they did attempt to transition, the",
+    "metrics": {
+      "factual_accuracy": 0.9230769230769231,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 0.15384615384615385,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 14,
+          "matched": 14,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 13,
+          "unsupported": 2,
+          "rate": 0.15384615384615385,
+          "details": [
+            {
+              "claim": "This suggests a lack of immediate transition opportunities or a defensive structure that limited quick transitions from defense to attack.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "However, this metric does not directly correlate with transition success, as aggressive pressing is more about defensive intensity than offensive transition.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 26.742705583572388
+  },
+  {
+    "example_id": "8f70f837-1a82-4223-a497-2466234d1658",
+    "category": "chance_creation",
+    "question": "Analyze Canada's shooting and expected goals (xG) in this match.",
+    "generated_answer": "Canada had a shooting attempt rate of 5 shots across the match, with 0 of those shots on target. Despite this, the team generated 1.10 expected goals (xG) from open play, indicating that their shot creation and shot quality were not directly translating into goals. The xG value of 1.10 suggests that, based on the quality and context of their attempts, a goal was statistically expected, but the actual outcome was a goalless result. This discrepancy highlights a gap between expected goal generation and actual goal conversion. Canada took 4 shots from inside the penalty area and 1 from outside, with no on-target efforts, which further supports the conclusion that their shots were either poorly placed or lacked sufficient quality to score. The fact that Canada created 1 high-xG chance (xG \u2265 0.3 per shot) implies that at least one of their attempts had a high probability of success, yet this opportunity was not converted. Given that they had 1.10 xG from open play and zero xG from set pieces, the lack of goal-scoring is likely attributable to the poor execution of their shooting attempts, despite the statistical expectation of a goal. Therefore, while Canada had the statistical potential to score, their actual shooting and finishing were ineffective, resulting in zero goals despite a reasonable xG output.",
+    "metrics": {
+      "factual_accuracy": 1.0,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 9,
+          "matched": 9,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 8,
+          "unsupported": 0,
+          "rate": 0.0,
+          "details": []
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 17.99483633041382
+  },
+  {
+    "example_id": "958e3553-8be6-4217-bb1e-7a5948c1e18f",
+    "category": "build_up_analysis",
+    "question": "How effectively did Portugal progress the ball and maintain possession?",
+    "generated_answer": "Portugal demonstrated a high level of ball progression and possession maintenance throughout the match. The team attempted 488 passes with an impressive 82.8% completion rate (404 completed), indicating strong passing accuracy and control. This efficiency in passing was further supported by their 96 progressive passes, which reflect their ability to advance the ball forward in a structured and effective manner. Additionally, Portugal completed 26 progressive carries, suggesting a balanced approach between passing and carrying the ball through the midfield and into the final third. The team also maintained a high level of possession, with 47.5% possession, which, combined with their 78 possession sequences averaging 20.8 actions per sequence, indicates a sustained and organized build-up play. The fact that they made 17 blocks and 10 interceptions suggests they were actively defending and maintaining possession in key areas, while their 172 pressures\u201450 in the attacking third and 77 in the middle third\u2014show a proactive pressing strategy that likely helped them retain possession and transition effectively. The 9 high regains in the attacking third further support this, indicating that Portugal was able to recover the ball in dangerous areas and maintain control. Overall, Portugal\u2019s combination of high pass completion, consistent progression, and structured pressing demonstrates a highly effective and organized approach to ball progression and possession maintenance.",
+    "metrics": {
+      "factual_accuracy": 0.9375,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 0.125,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 14,
+          "matched": 14,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 8,
+          "unsupported": 1,
+          "rate": 0.125,
+          "details": [
+            {
+              "claim": "This efficiency in passing was further supported by their 96 progressive passes, which reflect their ability to advance the ball forward in a structured and effective manner.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 18.551161766052246
+  }
+]

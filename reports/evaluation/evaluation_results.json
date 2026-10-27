@@ -1,0 +1,1525 @@
+[
+  {
+    "example_id": "72f5d915-9427-4368-8898-67246a74a7cf",
+    "category": "match_summary",
+    "question": "How did Germany perform overall in their match against Spain?",
+    "generated_answer": "Based on the provided match context:\n\n- Match Context:\n  - competition='FIFA World Cup' season='2022' home_team='Spain' away_team='Germany' score='1-1' match_date='2022-11-27'\n\n- Question: How did Germany perform overall in their match against Spain?\n\nAnswer:",
+    "metrics": {
+      "factual_accuracy": 0.25,
+      "numerical_accuracy": 0.5,
+      "unsupported_claim_rate": 1.0,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 6,
+          "matched": 3,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": " World Cup' season='2022' home_team='Spain' ",
+              "position": 96
+            },
+            {
+              "value": 2022.0,
+              "context": "e='1-1' match_date='2022-11-27'\n\n- Question:",
+              "position": 164
+            },
+            {
+              "value": 27.0,
+              "context": "match_date='2022-11-27'\n\n- Question: How d",
+              "position": 172
+            }
+          ],
+          "accuracy": 0.5
+        },
+        "unsupported": {
+          "total_claims": 2,
+          "unsupported": 2,
+          "rate": 1.0,
+          "details": [
+            {
+              "claim": "Based on the provided match context:\n\n- Match Context:\n  - competition='FIFA World Cup' season='2022' home_team='Spain' away_team='Germany' score='1-1' match_date='2022-11-27'\n\n- Question: How did Germany perform overall in their match against Spain?",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "Answer:",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 7.00245213508606
+  },
+  {
+    "example_id": "3ca9fc07-229f-4c78-af96-466e14e7f4b3",
+    "category": "build_up_analysis",
+    "question": "How effectively did Germany progress the ball and maintain possession?",
+    "generated_answer": "Based on the provided match data, there is no statistical evidence available to answer this question.",
+    "metrics": {
+      "factual_accuracy": 0.5,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 1.0,
+      "evidence_coverage": 0.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 0,
+          "matched": 0,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 1,
+          "unsupported": 1,
+          "rate": 1.0,
+          "details": [
+            {
+              "claim": "Based on the provided match data, there is no statistical evidence available to answer this question.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 0.9036233425140381
+  },
+  {
+    "example_id": "0e438a32-39ec-401b-adcf-5ef03cecdefc",
+    "category": "pressing_analysis",
+    "question": "How aggressive was Germany's pressing scheme in this match?",
+    "generated_answer": "Based on the provided match context, there is no statistical evidence available to answer this question.\n\nThe provided context only contains the match details:\n- Competition: FIFA World Cup\n- Season: 2022\n- Match Date: 2022-11-27\n- Match Result: Spain 1-1 Germany\n- Match Context: Germany vs Spain\n\nThe context does not include any specific statistics regarding Germany's pressing intensity, actions per minute, regains, or other defensive metrics.\n\nTherefore, based solely on the provided evidence, I cannot determine the aggression of Germany's pressing scheme.",
+    "metrics": {
+      "factual_accuracy": 0.4166666666666667,
+      "numerical_accuracy": 0.5,
+      "unsupported_claim_rate": 0.6666666666666666,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 6,
+          "matched": 3,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": "World Cup\n- Season: 2022\n- Match Date: 2022-",
+              "position": 200
+            },
+            {
+              "value": 2022.0,
+              "context": " 2022\n- Match Date: 2022-11-27\n- Match Resul",
+              "position": 219
+            },
+            {
+              "value": 27.0,
+              "context": "Match Date: 2022-11-27\n- Match Result: Spa",
+              "position": 227
+            }
+          ],
+          "accuracy": 0.5
+        },
+        "unsupported": {
+          "total_claims": 3,
+          "unsupported": 2,
+          "rate": 0.6666666666666666,
+          "details": [
+            {
+              "claim": "Based on the provided match context, there is no statistical evidence available to answer this question.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "The provided context only contains the match details:\n- Competition: FIFA World Cup\n- Season: 2022\n- Match Date: 2022-11-27\n- Match Result: Spain 1-1 Germany\n- Match Context: Germany vs Spain\n\nThe context does not include any specific statistics regarding Germany's pressing intensity, actions per minute, regains, or other defensive metrics.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 6.072332382202148
+  },
+  {
+    "example_id": "84e9a0f4-717b-460c-b02a-67bd1bb9a4c8",
+    "category": "chance_creation",
+    "question": "Analyze Germany's shooting and expected goals (xG) in this match.",
+    "generated_answer": "Based on the provided match context:\n\n- Match: FIFA World Cup\n- Season: 2022\n- Date: 2022-11-27\n- Competition: FIFA World Cup\n- Match: Spain vs Germany\n- Score: 1-1\n\nEvidence:\n- Germany had 42.5% possession.\n- Germany had 106 possession sequences, averaging 23.5 actions per possession.\n- Germany attempted 536 passes with a 80.5% completion rate (430 completed).\n- Germany completed 100 progressive passes.\n- Germany played 1 through balls.\n- Germany attempted 10 crosses and 1 cutbacks.\n- Germany had 12 shots, with 5 on target.\n- Germany generated 1.36 expected goals (xG).\n- Germany took 10 shots from inside the penalty area and 2 from outside.\n- Germany generated 1.36 xG from open play and 0.00 from set pieces.\n- Germany made 36 entries into the final third.\n- Germany entered the penalty area 10 times.\n- Germany completed 31 progressive carries.\n- Germany applied 106 pressures (38 in the attacking third, 42 in the middle third).\n- Germany recorded 11 high regains in the attacking third.\n- Germany had a PPDA of 20.18 (lower = more aggressive pressing).\n- Germany made 16 tackles (10 won).\n- Germany made 11 interceptions.\n- Germany made 16 clearances.\n- Germany made 16 blocks.\n- Germany launched 1 counterattack(s).\n- Germany lost possession 22 times (10 centrally, 12 wide).\n- Germany earned 1 corner(s).\n- Germany committed 10 foul(s).\n\nAnswer:",
+    "metrics": {
+      "factual_accuracy": 0.6347619047619047,
+      "numerical_accuracy": 0.30952380952380953,
+      "unsupported_claim_rate": 0.04,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 42,
+          "matched": 13,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": "World Cup\n- Season: 2022\n- Date: 2022-11-27\n",
+              "position": 72
+            },
+            {
+              "value": 2022.0,
+              "context": "eason: 2022\n- Date: 2022-11-27\n- Competition",
+              "position": 85
+            },
+            {
+              "value": 27.0,
+              "context": "022\n- Date: 2022-11-27\n- Competition: FIFA",
+              "position": 93
+            },
+            {
+              "value": 42.5,
+              "context": "ence:\n- Germany had 42.5% possession.\n- Germ",
+              "position": 190
+            },
+            {
+              "value": 106.0,
+              "context": "sion.\n- Germany had 106 possession sequence",
+              "position": 222
+            },
+            {
+              "value": 23.5,
+              "context": "equences, averaging 23.5 actions per possess",
+              "position": 258
+            },
+            {
+              "value": 536.0,
+              "context": "- Germany attempted 536 passes with a 80.5%",
+              "position": 307
+            },
+            {
+              "value": 80.5,
+              "context": "d 536 passes with a 80.5% completion rate (4",
+              "position": 325
+            },
+            {
+              "value": 430.0,
+              "context": "5% completion rate (430 completed).\n- Germa",
+              "position": 348
+            },
+            {
+              "value": 100.0,
+              "context": "- Germany completed 100 progressive passes.",
+              "position": 384
+            },
+            {
+              "value": 10.0,
+              "context": "- Germany attempted 10 crosses and 1 cutba",
+              "position": 462
+            },
+            {
+              "value": 1.36,
+              "context": "- Germany generated 1.36 expected goals (xG)",
+              "position": 551
+            },
+            {
+              "value": 10.0,
+              "context": "xG).\n- Germany took 10 shots from inside t",
+              "position": 592
+            },
+            {
+              "value": 2.0,
+              "context": "he penalty area and 2 from outside.\n- Ger",
+              "position": 634
+            },
+            {
+              "value": 1.36,
+              "context": "- Germany generated 1.36 xG from open play a",
+              "position": 670
+            },
+            {
+              "value": 36.0,
+              "context": "ces.\n- Germany made 36 entries into the fi",
+              "position": 734
+            },
+            {
+              "value": 10.0,
+              "context": "ed the penalty area 10 times.\n- Germany co",
+              "position": 802
+            },
+            {
+              "value": 31.0,
+              "context": "- Germany completed 31 progressive carries",
+              "position": 832
+            },
+            {
+              "value": 106.0,
+              "context": ".\n- Germany applied 106 pressures (38 in th",
+              "position": 874
+            },
+            {
+              "value": 38.0,
+              "context": "lied 106 pressures (38 in the attacking th",
+              "position": 889
+            },
+            {
+              "value": 42.0,
+              "context": "he attacking third, 42 in the middle third",
+              "position": 916
+            },
+            {
+              "value": 20.18,
+              "context": "rmany had a PPDA of 20.18 (lower = more aggre",
+              "position": 1024
+            },
+            {
+              "value": 16.0,
+              "context": "ng).\n- Germany made 16 tackles (10 won).\n-",
+              "position": 1081
+            },
+            {
+              "value": 10.0,
+              "context": "ny made 16 tackles (10 won).\n- Germany mad",
+              "position": 1093
+            },
+            {
+              "value": 16.0,
+              "context": "ons.\n- Germany made 16 clearances.\n- Germa",
+              "position": 1150
+            },
+            {
+              "value": 16.0,
+              "context": "ces.\n- Germany made 16 blocks.\n- Germany l",
+              "position": 1180
+            },
+            {
+              "value": 22.0,
+              "context": "any lost possession 22 times (10 centrally",
+              "position": 1256
+            },
+            {
+              "value": 10.0,
+              "context": "ossession 22 times (10 centrally, 12 wide)",
+              "position": 1266
+            },
+            {
+              "value": 10.0,
+              "context": "- Germany committed 10 foul(s).\n\nAnswer:",
+              "position": 1340
+            }
+          ],
+          "accuracy": 0.30952380952380953
+        },
+        "unsupported": {
+          "total_claims": 25,
+          "unsupported": 1,
+          "rate": 0.04,
+          "details": [
+            {
+              "claim": "Answer:",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 19.290069580078125
+  },
+  {
+    "example_id": "c89c77c5-aaad-4f6c-9862-35080565c834",
+    "category": "defensive_performance",
+    "question": "What do the defensive statistics indicate about Germany's performance?",
+    "generated_answer": "Based on the provided match data:\n\n- Germany had 52.2% possession.\n- Germany had 106 possession sequences, averaging 23.1 actions per possession.\n- Germany attempted 706 passes with a 82.8% completion rate (584 completed).\n- Germany completed 136 progressive passes.\n- Germany attempted 10 crosses and 0 cutbacks.\n- Germany had 12 shots, with 5 on target.\n- Germany generated 0.82 expected goals (xG).\n- Germany scored 1 goal(s).\n- Germany took 8 shots from inside the penalty area and 4 from outside.\n- Germany generated 0.82 xG from open play and 0.00 from set pieces.\n- Germany made 56 entries into the final third.\n- Germany entered the penalty area 10 times.\n- Germany completed 36 progressive carries.\n- Germany applied 120 pressures (32 in the attacking third, 58 in the middle third).\n- Germany recorded 11 high regains in the attacking third.\n- Germany had a PPDA of 22.87 (lower = more aggressive pressing).\n- Germany made 26 tackles (12 won).\n- Germany made 12 interceptions.\n- Germany made 26 clearances.\n- Germany made 16 blocks.\n- Germany launched 1 counterattack(s).\n- Germany lost possession 28 times (10 centrally, 18 wide).\n- Germany earned 5 corner(s).\n- Germany committed 10 foul(s).\n\nAnswer:",
+    "metrics": {
+      "factual_accuracy": 0.6744444444444444,
+      "numerical_accuracy": 0.3888888888888889,
+      "unsupported_claim_rate": 0.04,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 36,
+          "matched": 14,
+          "unmatched": [
+            {
+              "value": 52.2,
+              "context": "ata:\n\n- Germany had 52.2% possession.\n- Germ",
+              "position": 49
+            },
+            {
+              "value": 106.0,
+              "context": "sion.\n- Germany had 106 possession sequence",
+              "position": 81
+            },
+            {
+              "value": 23.1,
+              "context": "equences, averaging 23.1 actions per possess",
+              "position": 117
+            },
+            {
+              "value": 706.0,
+              "context": "- Germany attempted 706 passes with a 82.8%",
+              "position": 166
+            },
+            {
+              "value": 82.8,
+              "context": "d 706 passes with a 82.8% completion rate (5",
+              "position": 184
+            },
+            {
+              "value": 584.0,
+              "context": "8% completion rate (584 completed).\n- Germa",
+              "position": 207
+            },
+            {
+              "value": 136.0,
+              "context": "- Germany completed 136 progressive passes.",
+              "position": 243
+            },
+            {
+              "value": 10.0,
+              "context": "- Germany attempted 10 crosses and 0 cutba",
+              "position": 287
+            },
+            {
+              "value": 0.82,
+              "context": "- Germany generated 0.82 expected goals (xG)",
+              "position": 376
+            },
+            {
+              "value": 0.82,
+              "context": "- Germany generated 0.82 xG from open play a",
+              "position": 522
+            },
+            {
+              "value": 56.0,
+              "context": "ces.\n- Germany made 56 entries into the fi",
+              "position": 586
+            },
+            {
+              "value": 10.0,
+              "context": "ed the penalty area 10 times.\n- Germany co",
+              "position": 654
+            },
+            {
+              "value": 36.0,
+              "context": "- Germany completed 36 progressive carries",
+              "position": 684
+            },
+            {
+              "value": 120.0,
+              "context": ".\n- Germany applied 120 pressures (32 in th",
+              "position": 726
+            },
+            {
+              "value": 58.0,
+              "context": "he attacking third, 58 in the middle third",
+              "position": 768
+            },
+            {
+              "value": 22.87,
+              "context": "rmany had a PPDA of 22.87 (lower = more aggre",
+              "position": 876
+            },
+            {
+              "value": 26.0,
+              "context": "ng).\n- Germany made 26 tackles (12 won).\n-",
+              "position": 933
+            },
+            {
+              "value": 26.0,
+              "context": "ons.\n- Germany made 26 clearances.\n- Germa",
+              "position": 1002
+            },
+            {
+              "value": 16.0,
+              "context": "ces.\n- Germany made 16 blocks.\n- Germany l",
+              "position": 1032
+            },
+            {
+              "value": 28.0,
+              "context": "any lost possession 28 times (10 centrally",
+              "position": 1108
+            },
+            {
+              "value": 10.0,
+              "context": "ossession 28 times (10 centrally, 18 wide)",
+              "position": 1118
+            },
+            {
+              "value": 10.0,
+              "context": "- Germany committed 10 foul(s).\n\nAnswer:",
+              "position": 1192
+            }
+          ],
+          "accuracy": 0.3888888888888889
+        },
+        "unsupported": {
+          "total_claims": 25,
+          "unsupported": 1,
+          "rate": 0.04,
+          "details": [
+            {
+              "claim": "Answer:",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 18.086721658706665
+  },
+  {
+    "example_id": "68d74e84-0093-4cc8-b91d-af1ed18cacd8",
+    "category": "transition_analysis",
+    "question": "How effectively did Spain utilize transitions and turnovers against Germany?",
+    "generated_answer": "Based on the provided match context:\n\n- Match Context:\n  competition='FIFA World Cup' season='2022' home_team='Spain' away_team='Germany' score='1-1' match_date='2022-11-27'\n\n- Question: How effectively did Spain utilize transitions and turnovers against Germany?",
+    "metrics": {
+      "factual_accuracy": 0.16666666666666666,
+      "numerical_accuracy": 0.3333333333333333,
+      "unsupported_claim_rate": 1.0,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 6,
+          "matched": 2,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": " World Cup' season='2022' home_team='Spain' ",
+              "position": 94
+            },
+            {
+              "value": 2022.0,
+              "context": "e='1-1' match_date='2022-11-27'\n\n- Question:",
+              "position": 162
+            },
+            {
+              "value": 11.0,
+              "context": "1' match_date='2022-11-27'\n\n- Question: Ho",
+              "position": 167
+            },
+            {
+              "value": 27.0,
+              "context": "match_date='2022-11-27'\n\n- Question: How e",
+              "position": 170
+            }
+          ],
+          "accuracy": 0.3333333333333333
+        },
+        "unsupported": {
+          "total_claims": 1,
+          "unsupported": 1,
+          "rate": 1.0,
+          "details": [
+            {
+              "claim": "Based on the provided match context:\n\n- Match Context:\n  competition='FIFA World Cup' season='2022' home_team='Spain' away_team='Germany' score='1-1' match_date='2022-11-27'\n\n- Question: How effectively did Spain utilize transitions and turnovers against Germany?",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 3.9105610847473145
+  },
+  {
+    "example_id": "7fdc33e0-5bef-44fe-bfab-843f1c7f7eeb",
+    "category": "team_comparison",
+    "question": "Who had the statistical edge between Germany and Spain and why?",
+    "generated_answer": "Based on the provided match context, there is no statistical evidence to determine who had the edge between Germany and Spain in this match.\n\nThe provided context only contains the match details:\n- Competition: FIFA World Cup\n- Season: 2022\n- Match Date: 2022-11-27\n- Match Result: Spain 1-1 Germany\n\nThere are no specific statistics or metrics (e.g., shots, passes, expected goals, possession, etc.) included in this context to answer the question about statistical edges.",
+    "metrics": {
+      "factual_accuracy": 0.5,
+      "numerical_accuracy": 0.5,
+      "unsupported_claim_rate": 0.5,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 6,
+          "matched": 3,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": "World Cup\n- Season: 2022\n- Match Date: 2022-",
+              "position": 236
+            },
+            {
+              "value": 2022.0,
+              "context": " 2022\n- Match Date: 2022-11-27\n- Match Resul",
+              "position": 255
+            },
+            {
+              "value": 27.0,
+              "context": "Match Date: 2022-11-27\n- Match Result: Spa",
+              "position": 263
+            }
+          ],
+          "accuracy": 0.5
+        },
+        "unsupported": {
+          "total_claims": 2,
+          "unsupported": 1,
+          "rate": 0.5,
+          "details": [
+            {
+              "claim": "The provided context only contains the match details:\n- Competition: FIFA World Cup\n- Season: 2022\n- Match Date: 2022-11-27\n- Match Result: Spain 1-1 Germany\n\nThere are no specific statistics or metrics (e.g., shots, passes, expected goals, possession, etc.) included in this context to answer the question about statistical edges.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 7.075305461883545
+  },
+  {
+    "example_id": "ea9fd3a1-4373-4e6c-b10f-3c1b6ae69fe5",
+    "category": "player_contribution",
+    "question": "How did key players perform for Germany based on the statistics?",
+    "generated_answer": "Based on the provided match context, there is no statistical evidence available to answer this question.",
+    "metrics": {
+      "factual_accuracy": 0.5,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 1.0,
+      "evidence_coverage": 0.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 0,
+          "matched": 0,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 1,
+          "unsupported": 1,
+          "rate": 1.0,
+          "details": [
+            {
+              "claim": "Based on the provided match context, there is no statistical evidence available to answer this question.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 1.1297111511230469
+  },
+  {
+    "example_id": "7be2cf46-37f6-4355-91ab-1563b7ec2186",
+    "category": "evidence_extraction",
+    "question": "What specific statistics describe Spain's possession and passing?",
+    "generated_answer": "Based on the provided match context:\n\n- Match Context:\n  competition='FIFA World Cup' season='2022' home_team='Spain' away_team='Germany' score='1-1' match_date='2022-11-27'\n\n- Question: What specific statistics describe Spain's possession and passing?",
+    "metrics": {
+      "factual_accuracy": 0.16666666666666666,
+      "numerical_accuracy": 0.3333333333333333,
+      "unsupported_claim_rate": 1.0,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 6,
+          "matched": 2,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": " World Cup' season='2022' home_team='Spain' ",
+              "position": 94
+            },
+            {
+              "value": 2022.0,
+              "context": "e='1-1' match_date='2022-11-27'\n\n- Question:",
+              "position": 162
+            },
+            {
+              "value": 11.0,
+              "context": "1' match_date='2022-11-27'\n\n- Question: Wh",
+              "position": 167
+            },
+            {
+              "value": 27.0,
+              "context": "match_date='2022-11-27'\n\n- Question: What ",
+              "position": 170
+            }
+          ],
+          "accuracy": 0.3333333333333333
+        },
+        "unsupported": {
+          "total_claims": 1,
+          "unsupported": 1,
+          "rate": 1.0,
+          "details": [
+            {
+              "claim": "Based on the provided match context:\n\n- Match Context:\n  competition='FIFA World Cup' season='2022' home_team='Spain' away_team='Germany' score='1-1' match_date='2022-11-27'\n\n- Question: What specific statistics describe Spain's possession and passing?",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 4.044748544692993
+  },
+  {
+    "example_id": "0266cba9-8af4-4e60-8b50-e16bab43b4c8",
+    "category": "limitation_aware",
+    "question": "Explain the emotional state of Spain's players during the match.",
+    "generated_answer": "Based on the provided statistical evidence:\n\n- Spain had 52.3% possession.\n- Spain had 100 possession sequences, averaging 22.3 actions per possession.\n- Spain attempted 706 passes with a 84.8% completion rate (600 completed).\n- Spain completed 136 progressive passes.\n- Spain attempted 10 crosses and 1 cutbacks.\n- Spain had 12 shots, with 5 on target.\n- Spain generated 1.15 expected goals (xG).\n- Spain scored 1 goal(s).\n- Spain took 10 shots from inside the penalty area and 2 from outside.\n- Spain generated 1.15 xG from open play and 0.00 from set pieces.\n- Spain made 56 entries into the final third.\n- Spain entered the penalty area 12 times.\n- Spain completed 36 progressive carries.\n- Spain applied 106 pressures (38 in the attacking third, 45 in the middle third).\n- Spain recorded 11 high regains in the attacking third.\n- Spain had a PPDA of 18.82 (lower = more aggressive pressing).\n- Spain made 18 tackles (10 won).\n- Spain made 10 interceptions.\n- Spain made 16 clearances.\n- Spain made 15 blocks.\n- Spain launched 1 counterattack(s).\n- Spain lost possession 23 times (10 centrally, 13 wide).\n- Spain earned 3 corner(s).\n- Spain committed 10 foul(s).\n\nAnswer:",
+    "metrics": {
+      "factual_accuracy": 0.6188888888888888,
+      "numerical_accuracy": 0.2777777777777778,
+      "unsupported_claim_rate": 0.04,
+      "evidence_coverage": 0.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 36,
+          "matched": 10,
+          "unmatched": [
+            {
+              "value": 52.3,
+              "context": "dence:\n\n- Spain had 52.3% possession.\n- Spai",
+              "position": 57
+            },
+            {
+              "value": 100.0,
+              "context": "ession.\n- Spain had 100 possession sequence",
+              "position": 87
+            },
+            {
+              "value": 22.3,
+              "context": "equences, averaging 22.3 actions per possess",
+              "position": 123
+            },
+            {
+              "value": 706.0,
+              "context": ".\n- Spain attempted 706 passes with a 84.8%",
+              "position": 170
+            },
+            {
+              "value": 84.8,
+              "context": "d 706 passes with a 84.8% completion rate (6",
+              "position": 188
+            },
+            {
+              "value": 600.0,
+              "context": "8% completion rate (600 completed).\n- Spain",
+              "position": 211
+            },
+            {
+              "value": 136.0,
+              "context": ".\n- Spain completed 136 progressive passes.",
+              "position": 245
+            },
+            {
+              "value": 10.0,
+              "context": ".\n- Spain attempted 10 crosses and 1 cutba",
+              "position": 287
+            },
+            {
+              "value": 5.0,
+              "context": " had 12 shots, with 5 on target.\n- Spain ",
+              "position": 341
+            },
+            {
+              "value": 1.15,
+              "context": ".\n- Spain generated 1.15 expected goals (xG)",
+              "position": 372
+            },
+            {
+              "value": 10.0,
+              "context": "al(s).\n- Spain took 10 shots from inside t",
+              "position": 437
+            },
+            {
+              "value": 2.0,
+              "context": "he penalty area and 2 from outside.\n- Spa",
+              "position": 479
+            },
+            {
+              "value": 1.15,
+              "context": ".\n- Spain generated 1.15 xG from open play a",
+              "position": 513
+            },
+            {
+              "value": 56.0,
+              "context": "ieces.\n- Spain made 56 entries into the fi",
+              "position": 575
+            },
+            {
+              "value": 36.0,
+              "context": ".\n- Spain completed 36 progressive carries",
+              "position": 669
+            },
+            {
+              "value": 106.0,
+              "context": "es.\n- Spain applied 106 pressures (38 in th",
+              "position": 709
+            },
+            {
+              "value": 45.0,
+              "context": "he attacking third, 45 in the middle third",
+              "position": 751
+            },
+            {
+              "value": 11.0,
+              "context": ").\n- Spain recorded 11 high regains in the",
+              "position": 793
+            },
+            {
+              "value": 18.82,
+              "context": "Spain had a PPDA of 18.82 (lower = more aggre",
+              "position": 855
+            },
+            {
+              "value": 18.0,
+              "context": "sing).\n- Spain made 18 tackles (10 won).\n-",
+              "position": 910
+            },
+            {
+              "value": 10.0,
+              "context": "in made 18 tackles (10 won).\n- Spain made ",
+              "position": 922
+            },
+            {
+              "value": 10.0,
+              "context": " won).\n- Spain made 10 interceptions.\n- Sp",
+              "position": 944
+            },
+            {
+              "value": 23.0,
+              "context": "ain lost possession 23 times (10 centrally",
+              "position": 1075
+            },
+            {
+              "value": 10.0,
+              "context": "ossession 23 times (10 centrally, 13 wide)",
+              "position": 1085
+            },
+            {
+              "value": 13.0,
+              "context": "imes (10 centrally, 13 wide).\n- Spain earn",
+              "position": 1099
+            },
+            {
+              "value": 10.0,
+              "context": ".\n- Spain committed 10 foul(s).\n\nAnswer:",
+              "position": 1155
+            }
+          ],
+          "accuracy": 0.2777777777777778
+        },
+        "unsupported": {
+          "total_claims": 25,
+          "unsupported": 1,
+          "rate": 0.04,
+          "details": [
+            {
+              "claim": "Answer:",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 18.55090880393982
+  },
+  {
+    "example_id": "ba0f640e-68fb-4b4b-86e9-d19318de0b6c",
+    "category": "match_summary",
+    "question": "Summarize the tactical performance of Denmark in this match.",
+    "generated_answer": "Based on the provided match context, there is insufficient statistical evidence to analyze Denmark's tactical performance.",
+    "metrics": {
+      "factual_accuracy": 0.5,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 1.0,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 0,
+          "matched": 0,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 1,
+          "unsupported": 1,
+          "rate": 1.0,
+          "details": [
+            {
+              "claim": "Based on the provided match context, there is insufficient statistical evidence to analyze Denmark's tactical performance.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 1.0907928943634033
+  },
+  {
+    "example_id": "bd4c0aa8-2778-43ae-bc1e-9082af48a40b",
+    "category": "build_up_analysis",
+    "question": "What do the statistics say about Denmark's passing and ball progression?",
+    "generated_answer": "Based on the provided match context:\n\n*Match Context:\ncompetition='FIFA World Cup' season='2022' home_team='France' away_team='Denmark' score='2-1' match_date='2022-11-26'\n*\n\nQuestion: What do the statistics say about Denmark's passing and ball progression?",
+    "metrics": {
+      "factual_accuracy": 0.25,
+      "numerical_accuracy": 0.5,
+      "unsupported_claim_rate": 1.0,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 6,
+          "matched": 3,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": " World Cup' season='2022' home_team='France'",
+              "position": 91
+            },
+            {
+              "value": 2022.0,
+              "context": "e='2-1' match_date='2022-11-26'\n*\n\nQuestion:",
+              "position": 160
+            },
+            {
+              "value": 26.0,
+              "context": "match_date='2022-11-26'\n*\n\nQuestion: What ",
+              "position": 168
+            }
+          ],
+          "accuracy": 0.5
+        },
+        "unsupported": {
+          "total_claims": 1,
+          "unsupported": 1,
+          "rate": 1.0,
+          "details": [
+            {
+              "claim": "Based on the provided match context:\n\n*Match Context:\ncompetition='FIFA World Cup' season='2022' home_team='France' away_team='Denmark' score='2-1' match_date='2022-11-26'\n*\n\nQuestion: What do the statistics say about Denmark's passing and ball progression?",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 5.163603067398071
+  },
+  {
+    "example_id": "b2d95d5c-6dbf-4645-bfdb-1f8297c21570",
+    "category": "pressing_analysis",
+    "question": "Analyze France's defensive actions in the attacking third.",
+    "generated_answer": "Based on the provided match context, there is insufficient statistical evidence to analyze France's defensive actions in the attacking third.\n\nThe provided context only contains the following information:\n- Match Context: competition='FIFA World Cup' season='2022' home_team='France' away_team='Denmark' score='2-1' match_date='2022-11-26'\n\nThis data includes only the match result (2-1) and basic metadata. It does not contain any specific statistics related to player actions, passes, tackles, interceptions, or defensive records.\n\nTo answer the question about France's defensive actions in the attacking third, we would need specific defensive metrics such as:\n- Number of tackles in the attacking third\n- Number of interceptions in the attacking third\n- Number of clearances in the attacking third\n- Number of blocks in the attacking third\n- Number of tackles in the penalty area\n- Number of interceptions in the penalty area\n- Number of passes completed in the attacking third\n- Number of progressive passes in the attacking third\n- Number of crosses and cutbacks\n\nSince none of these specific defensive action metrics are present in the provided context, it is not possible to generate a statistically valid analysis.",
+    "metrics": {
+      "factual_accuracy": 0.625,
+      "numerical_accuracy": 0.75,
+      "unsupported_claim_rate": 0.5,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 8,
+          "matched": 6,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": " World Cup' season='2022' home_team='France'",
+              "position": 259
+            },
+            {
+              "value": 2022.0,
+              "context": "e='2-1' match_date='2022-11-26'\n\nThis data i",
+              "position": 328
+            }
+          ],
+          "accuracy": 0.75
+        },
+        "unsupported": {
+          "total_claims": 4,
+          "unsupported": 2,
+          "rate": 0.5,
+          "details": [
+            {
+              "claim": "The provided context only contains the following information:\n- Match Context: competition='FIFA World Cup' season='2022' home_team='France' away_team='Denmark' score='2-1' match_date='2022-11-26'\n\nThis data includes only the match result (2-1) and basic metadata.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "It does not contain any specific statistics related to player actions, passes, tackles, interceptions, or defensive records.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 14.431199312210083
+  },
+  {
+    "example_id": "a99f3017-4d28-48ca-8fa8-0312403af870",
+    "category": "chance_creation",
+    "question": "Describe France's effectiveness in the final third and chance creation.",
+    "generated_answer": "Based on the provided match context:\n\n- Match Context:\n  competition='FIFA World Cup' season='2022' home_team='France' away_team='Denmark' score='2-1' match_date='2022-11-26'\n\n- Question: Describe France's effectiveness in the final third and chance creation.\n\n- Answer:",
+    "metrics": {
+      "factual_accuracy": 0.5833333333333333,
+      "numerical_accuracy": 0.6666666666666666,
+      "unsupported_claim_rate": 0.5,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 6,
+          "matched": 4,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": " World Cup' season='2022' home_team='France'",
+              "position": 94
+            },
+            {
+              "value": 2022.0,
+              "context": "e='2-1' match_date='2022-11-26'\n\n- Question:",
+              "position": 163
+            }
+          ],
+          "accuracy": 0.6666666666666666
+        },
+        "unsupported": {
+          "total_claims": 2,
+          "unsupported": 1,
+          "rate": 0.5,
+          "details": [
+            {
+              "claim": "- Answer:",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 4.374494314193726
+  },
+  {
+    "example_id": "f54609d1-8a6c-45b5-a7b3-bf74b6255bb0",
+    "category": "defensive_performance",
+    "question": "What do the defensive statistics indicate about Denmark's performance?",
+    "generated_answer": "Based on the provided match data:\n\n-Competition: FIFA World Cup\n-Season: 2022\n-Home Team: France\n-Away Team: Denmark\n-Score: 2-1\n-Match Date: 2022-11-26\n\nEvidence:\n- Denmark had 42.2% possession.\n- Denmark had 105 possession sequences, averaging 19.8 actions per possession.\n- Denmark attempted 486 passes with a 75.5% completion rate (368 completed).\n- Denmark completed 100 progressive passes.\n- Denmark attempted 12 crosses and 0 cutbacks.\n- Denmark had 11 shots, with 4 on target.\n- Denmark generated 0.86 expected goals (xG).\n- Denmark scored 1 goal(s).\n- Denmark took 8 shots from inside the penalty area and 3 from outside.\n- Denmark generated 0.86 xG from open play and 0.00 from set pieces.\n- Denmark made 46 entries into the final third.\n- Denmark entered the penalty area 10 times.\n- Denmark completed 26 progressive carries.\n- Denmark applied 106 pressures (28 in the attacking third, 48 in the middle third).\n- Denmark recorded 11 high regains in the attacking third.\n- Denmark had a PPDA of 32.36 (lower = more aggressive pressing).\n- Denmark made 15 tackles (10 won).\n- Denmark made 10 interceptions.\n- Denmark made 16 clearances.\n- Denmark made 16 blocks.\n- Denmark launched 1 counterattack(s).\n- Denmark lost possession 22 times (10 centrally, 12 wide).\n- Denmark earned 3 corner(s).\n- Denmark committed 10 foul(s).\n\nAnswer:",
+    "metrics": {
+      "factual_accuracy": 0.6623809523809524,
+      "numerical_accuracy": 0.40476190476190477,
+      "unsupported_claim_rate": 0.08,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 42,
+          "matched": 17,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": " World Cup\n-Season: 2022\n-Home Team: France\n",
+              "position": 73
+            },
+            {
+              "value": 2022.0,
+              "context": "e: 2-1\n-Match Date: 2022-11-26\n\nEvidence:\n- ",
+              "position": 142
+            },
+            {
+              "value": 26.0,
+              "context": "Match Date: 2022-11-26\n\nEvidence:\n- Denmar",
+              "position": 150
+            },
+            {
+              "value": 42.2,
+              "context": "ence:\n- Denmark had 42.2% possession.\n- Denm",
+              "position": 178
+            },
+            {
+              "value": 105.0,
+              "context": "sion.\n- Denmark had 105 possession sequence",
+              "position": 210
+            },
+            {
+              "value": 19.8,
+              "context": "equences, averaging 19.8 actions per possess",
+              "position": 246
+            },
+            {
+              "value": 486.0,
+              "context": "- Denmark attempted 486 passes with a 75.5%",
+              "position": 295
+            },
+            {
+              "value": 75.5,
+              "context": "d 486 passes with a 75.5% completion rate (3",
+              "position": 313
+            },
+            {
+              "value": 368.0,
+              "context": "5% completion rate (368 completed).\n- Denma",
+              "position": 336
+            },
+            {
+              "value": 100.0,
+              "context": "- Denmark completed 100 progressive passes.",
+              "position": 372
+            },
+            {
+              "value": 12.0,
+              "context": "- Denmark attempted 12 crosses and 0 cutba",
+              "position": 416
+            },
+            {
+              "value": 0.86,
+              "context": "- Denmark generated 0.86 expected goals (xG)",
+              "position": 505
+            },
+            {
+              "value": 8.0,
+              "context": "(s).\n- Denmark took 8 shots from inside t",
+              "position": 574
+            },
+            {
+              "value": 3.0,
+              "context": "he penalty area and 3 from outside.\n- Den",
+              "position": 615
+            },
+            {
+              "value": 0.86,
+              "context": "- Denmark generated 0.86 xG from open play a",
+              "position": 651
+            },
+            {
+              "value": 46.0,
+              "context": "ces.\n- Denmark made 46 entries into the fi",
+              "position": 715
+            },
+            {
+              "value": 26.0,
+              "context": "- Denmark completed 26 progressive carries",
+              "position": 813
+            },
+            {
+              "value": 106.0,
+              "context": ".\n- Denmark applied 106 pressures (28 in th",
+              "position": 855
+            },
+            {
+              "value": 28.0,
+              "context": "lied 106 pressures (28 in the attacking th",
+              "position": 870
+            },
+            {
+              "value": 48.0,
+              "context": "he attacking third, 48 in the middle third",
+              "position": 897
+            },
+            {
+              "value": 32.36,
+              "context": "nmark had a PPDA of 32.36 (lower = more aggre",
+              "position": 1005
+            },
+            {
+              "value": 16.0,
+              "context": "ons.\n- Denmark made 16 clearances.\n- Denma",
+              "position": 1131
+            },
+            {
+              "value": 16.0,
+              "context": "ces.\n- Denmark made 16 blocks.\n- Denmark l",
+              "position": 1161
+            },
+            {
+              "value": 12.0,
+              "context": "imes (10 centrally, 12 wide).\n- Denmark ea",
+              "position": 1261
+            },
+            {
+              "value": 3.0,
+              "context": ").\n- Denmark earned 3 corner(s).\n- Denmar",
+              "position": 1288
+            }
+          ],
+          "accuracy": 0.40476190476190477
+        },
+        "unsupported": {
+          "total_claims": 25,
+          "unsupported": 2,
+          "rate": 0.08,
+          "details": [
+            {
+              "claim": "Based on the provided match data:\n\n-Competition: FIFA World Cup\n-Season: 2022\n-Home Team: France\n-Away Team: Denmark\n-Score: 2-1\n-Match Date: 2022-11-26\n\nEvidence:\n- Denmark had 42.2% possession.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "Answer:",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 24.234882593154907
+  },
+  {
+    "example_id": "44e0ca27-cf13-41f5-967b-6e8e8e19a728",
+    "category": "transition_analysis",
+    "question": "How effectively did France utilize transitions and turnovers against Denmark?",
+    "generated_answer": "Based on the provided match context, there is insufficient statistical evidence to answer this question.\n\nThe provided context only contains the following information:\n- Match context: FIFA World Cup 2022\n- Date: 2022-11-26\n- Match: France vs Denmark\n- Score: 2-1\n\nThis data includes only the final score and match metadata. It does not contain any tactical statistics such as:\n- Possession percentages\n- Pass completion rates\n- Shots and shot quality\n- Expected goals (xG)\n- Expected goals per shot\n- Corner counts\n- Cards\n- Player-specific metrics (e.g., tackles, interceptions, passes)\n\nWithout specific statistical evidence from the match, it is impossible to evaluate France's transitions, turnovers, or individual player actions against Denmark.",
+    "metrics": {
+      "factual_accuracy": 0.5,
+      "numerical_accuracy": 0.6666666666666666,
+      "unsupported_claim_rate": 0.6666666666666666,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 6,
+          "matched": 4,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": "ext: FIFA World Cup 2022\n- Date: 2022-11-26\n",
+              "position": 200
+            },
+            {
+              "value": 2022.0,
+              "context": "ld Cup 2022\n- Date: 2022-11-26\n- Match: Fran",
+              "position": 213
+            }
+          ],
+          "accuracy": 0.6666666666666666
+        },
+        "unsupported": {
+          "total_claims": 3,
+          "unsupported": 2,
+          "rate": 0.6666666666666666,
+          "details": [
+            {
+              "claim": "Based on the provided match context, there is insufficient statistical evidence to answer this question.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "The provided context only contains the following information:\n- Match context: FIFA World Cup 2022\n- Date: 2022-11-26\n- Match: France vs Denmark\n- Score: 2-1\n\nThis data includes only the final score and match metadata.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 9.446815729141235
+  },
+  {
+    "example_id": "09461dec-6d96-488b-b48d-a5ec61b64b2d",
+    "category": "team_comparison",
+    "question": "Provide a comparative analysis of Denmark and France based on the evidence.",
+    "generated_answer": "Based on the provided match data:\n\n- Match Context:\n  - competition='FIFA World Cup' season='2022' home_team='France' away_team='Denmark' score='2-1' match_date='2022-11-26'\n\n- Match Evidence:\n  - France had 62.5% possession.\n  - France had 80 possession sequences, averaging 26.5 actions per possession.\n  - France attempted 632 passes with a 83.5% completion rate (530 completed).\n  - France completed 130 progressive passes.\n  - France attempted 12 crosses and 0 cutbacks.\n  - France had 12 shots, with 5 on target.\n  - France generated 1.06 expected goals (xG).\n  - France scored 2 goal(s).\n  - France took 8 shots from inside the penalty area and 4 from outside.\n  - France generated 1.06 xG from open play and 0.00 from set pieces.\n  - France made 66 entries into the final third.\n  - France entered the penalty area 16 times.\n  - France completed 46 progressive carries.\n  - France applied 126 pressures (36 in the attacking third, 58 in the middle third).\n  - France recorded 11 high regains in the attacking third.\n  - France had a PPDA of 18.86 (lower = more aggressive pressing).\n  - France made 21 tackles (11 won).\n  - France made 12 interceptions.\n  - France made 22 clearances.\n  - France made 16 blocks.\n  - France launched 1 counterattack(s).\n  - France lost possession 20 times (10 centrally, 10 wide).\n  - France earned 4 corner(s).",
+    "metrics": {
+      "factual_accuracy": 0.7682926829268293,
+      "numerical_accuracy": 0.5365853658536586,
+      "unsupported_claim_rate": 0.0,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 41,
+          "matched": 22,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": " World Cup' season='2022' home_team='France'",
+              "position": 93
+            },
+            {
+              "value": 2022.0,
+              "context": "e='2-1' match_date='2022-11-26'\n\n- Match Evi",
+              "position": 162
+            },
+            {
+              "value": 62.5,
+              "context": "nce:\n  - France had 62.5% possession.\n  - Fr",
+              "position": 208
+            },
+            {
+              "value": 80.0,
+              "context": "ion.\n  - France had 80 possession sequence",
+              "position": 241
+            },
+            {
+              "value": 26.5,
+              "context": "equences, averaging 26.5 actions per possess",
+              "position": 276
+            },
+            {
+              "value": 632.0,
+              "context": " - France attempted 632 passes with a 83.5%",
+              "position": 326
+            },
+            {
+              "value": 83.5,
+              "context": "d 632 passes with a 83.5% completion rate (5",
+              "position": 344
+            },
+            {
+              "value": 530.0,
+              "context": "5% completion rate (530 completed).\n  - Fra",
+              "position": 367
+            },
+            {
+              "value": 130.0,
+              "context": " - France completed 130 progressive passes.",
+              "position": 404
+            },
+            {
+              "value": 1.06,
+              "context": " - France generated 1.06 expected goals (xG)",
+              "position": 540
+            },
+            {
+              "value": 8.0,
+              "context": "s).\n  - France took 8 shots from inside t",
+              "position": 611
+            },
+            {
+              "value": 1.06,
+              "context": " - France generated 1.06 xG from open play a",
+              "position": 689
+            },
+            {
+              "value": 66.0,
+              "context": "es.\n  - France made 66 entries into the fi",
+              "position": 754
+            },
+            {
+              "value": 46.0,
+              "context": " - France completed 46 progressive carries",
+              "position": 854
+            },
+            {
+              "value": 126.0,
+              "context": "\n  - France applied 126 pressures (36 in th",
+              "position": 897
+            },
+            {
+              "value": 36.0,
+              "context": "lied 126 pressures (36 in the attacking th",
+              "position": 912
+            },
+            {
+              "value": 58.0,
+              "context": "he attacking third, 58 in the middle third",
+              "position": 939
+            },
+            {
+              "value": 18.86,
+              "context": "rance had a PPDA of 18.86 (lower = more aggre",
+              "position": 1049
+            },
+            {
+              "value": 20.0,
+              "context": "nce lost possession 20 times (10 centrally",
+              "position": 1287
+            }
+          ],
+          "accuracy": 0.5365853658536586
+        },
+        "unsupported": {
+          "total_claims": 23,
+          "unsupported": 0,
+          "rate": 0.0,
+          "details": []
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 23.793137311935425
+  },
+  {
+    "example_id": "fec8edf2-661e-4f4d-8464-fe58814d6e53",
+    "category": "player_contribution",
+    "question": "What were the standout individual performances for Denmark?",
+    "generated_answer": "Based on the provided match context, there is insufficient statistical evidence to identify standout individual performances for Denmark.\n\nThe provided context only includes aggregate match statistics (e.g., shots, passes, expected goals) and does not contain individual player metrics such as expected goals per shot, tackles, interceptions, or cards. Without this granular player-level data, it is impossible to answer the question with statistical accuracy.\n\nTherefore, based solely on the evidence presented:\nAnswer: Insufficient evidence",
+    "metrics": {
+      "factual_accuracy": 0.625,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 0.75,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 0,
+          "matched": 0,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 4,
+          "unsupported": 3,
+          "rate": 0.75,
+          "details": [
+            {
+              "claim": "Based on the provided match context, there is insufficient statistical evidence to identify standout individual performances for Denmark.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "Without this granular player-level data, it is impossible to answer the question with statistical accuracy.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "Therefore, based solely on the evidence presented:\nAnswer: Insufficient evidence",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 4.793408155441284
+  },
+  {
+    "example_id": "c078f003-0c88-49d8-b409-0964cc46d627",
+    "category": "evidence_extraction",
+    "question": "What specific statistics describe France's possession and passing?",
+    "generated_answer": "Based on the provided match context, there are no specific statistics describing France's possession and passing.",
+    "metrics": {
+      "factual_accuracy": 1.0,
+      "numerical_accuracy": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 0,
+          "matched": 0,
+          "unmatched": [],
+          "accuracy": 1.0
+        },
+        "unsupported": {
+          "total_claims": 1,
+          "unsupported": 0,
+          "rate": 0.0,
+          "details": []
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 1.0850636959075928
+  },
+  {
+    "example_id": "ae2bdcf2-e502-4639-be4f-4ac64b1be5de",
+    "category": "limitation_aware",
+    "question": "Why did France choose this specific formation against Denmark?",
+    "generated_answer": "Based on the provided match context, there is insufficient statistical evidence to answer this question.\n\nThe provided context only includes:\n- Match date: 2022-11-26\n- Competition: FIFA World Cup\n- Teams: France vs Denmark\n- Score: 2-1\n\nThis data contains only the final score and match metadata. It lacks detailed tactical information such as:\n- Player actions (passes, shots, tackles, etc.)\n- Possession percentages\n- Expected goals (xG)\n- Sequences of play\n- Specific player statistics\n- Tactical formations or instructions\n\nWithout this granular tactical data, it is impossible to determine France's specific formation or tactical decisions against Denmark.",
+    "metrics": {
+      "factual_accuracy": 0.5666666666666667,
+      "numerical_accuracy": 0.8,
+      "unsupported_claim_rate": 0.6666666666666666,
+      "evidence_coverage": 1.0,
+      "details": {
+        "numerical": {
+          "total_numbers": 5,
+          "matched": 4,
+          "unmatched": [
+            {
+              "value": 2022.0,
+              "context": "udes:\n- Match date: 2022-11-26\n- Competition",
+              "position": 156
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "unsupported": {
+          "total_claims": 3,
+          "unsupported": 2,
+          "rate": 0.6666666666666666,
+          "details": [
+            {
+              "claim": "Based on the provided match context, there is insufficient statistical evidence to answer this question.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            },
+            {
+              "claim": "The provided context only includes:\n- Match date: 2022-11-26\n- Competition: FIFA World Cup\n- Teams: France vs Denmark\n- Score: 2-1\n\nThis data contains only the final score and match metadata.",
+              "reason": "High ratio of novel words not found in evidence.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "prohibited": {
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    "generation_time_seconds": 7.692052364349365
+  }
+]

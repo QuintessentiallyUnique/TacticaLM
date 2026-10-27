@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Pytest / Coverage / QA
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environment variables
+.env
+!.env.example
+
+# Build/Dist
+build/
+dist/
+*.egg-info/
+
+# Data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/README.md
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/evaluation/.gitkeep
+!data/evaluation/dev/.gitkeep
+!data/evaluation/final_test/.gitkeep
+
+# Models
+models/adapters/*
+!models/README.md
+!models/adapters/.gitkeep
+*.pt
+*.bin
+*.safetensors
+*.gguf
+
+# Logs and MLflow
+mlruns/
+*.log
+
+# Notebooks
+.ipynb_checkpoints/
+notebooks/*.ipynb checkpoints
+
+# macOS
+.DS_Store
+
+# Local environments, credentials and generated artifacts
+.env
+.env.*
+!.env.example
+.venv*/
+*.jks
+*.keystore
+*.p12
+/.venv_wsl/
+/models/Qwen3-4B-Instruct-2507/

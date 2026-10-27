@@ -1,0 +1,69 @@
+evaluation:
+  categories:
+    - match_summary
+    - build_up_analysis
+    - pressing_analysis
+    - chance_creation
+    - defensive_performance
+    - transition_analysis
+    - team_comparison
+    - player_contribution
+    - evidence_extraction
+    - limitation_aware
+    
+  dev_eval:
+    target_questions: 80
+    source_split: dev_eval
+    allow_revision: true
+    
+  final_test:
+    target_questions: 80
+    source_split: final_test
+    frozen: true
+    note: "Used exactly once for final reported results"
+    
+  metrics:
+    automated:
+      - factual_accuracy
+      - numerical_accuracy
+      - unsupported_claim_rate
+      - evidence_coverage
+      - instruction_following
+    human:
+      - tactical_specificity
+      - correctness
+      - clarity
+      - usefulness
+      - overall_preference
+      
+  specificity_scale:
+    1: "Generic or irrelevant"
+    2: "Limited tactical content"
+    3: "Moderately specific"
+    4: "Strong and evidence-based"
+    5: "Highly specific, accurate and useful"
+    
+  claim_labels:
+    - SUPPORTED
+    - PARTIALLY_SUPPORTED
+    - UNSUPPORTED
+    - CONTRADICTED
+    
+  error_types:
+    - UNSUPPORTED_CLAIM
+    - INCORRECT_NUMBER
+    - MISREAD_COMPARISON
+    - GENERIC_ANALYSIS
+    - MISSED_EVIDENCE
+    - OVERCONFIDENT_CONCLUSION
+    - INSTRUCTION_FAILURE
+    - PLAYER_CONFUSION
+    - TEAM_CONFUSION
+    - TACTICAL_TERMINOLOGY_ERROR
+    - INSUFFICIENT_EVIDENCE_NOT_ACKNOWLEDGED
+    
+  generation:
+    temperature: 0.1
+    top_p: 0.9
+    max_new_tokens: 400
+    do_sample: false

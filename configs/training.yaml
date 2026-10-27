@@ -1,0 +1,42 @@
+model:
+  name: "Qwen/Qwen3-4B-Instruct-2507"
+  load_in_4bit: true
+  trust_remote_code: false
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_compute_dtype: "bfloat16"
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  bias: "none"
+  target_modules: "all-linear"
+  task_type: "CAUSAL_LM"
+
+training:
+  seed: 42
+  num_train_epochs: 3
+  learning_rate: 0.0002
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 16
+  max_seq_length: 2048
+  warmup_ratio: 0.03
+  weight_decay: 0.01
+  logging_steps: 10
+  eval_strategy: "steps"
+  eval_steps: 100
+  save_steps: 100
+  save_total_limit: 3
+  gradient_checkpointing: true
+  bf16: true
+  fp16: false
+  optim: "paged_adamw_8bit"
+  report_to: "mlflow"
+
+output:
+  directory: "models/adapters/tacticalm-v2"
+
+experiment:
+  name_template: "{model_short}-qlora-r{lora_r}-lr{lr}-seed{seed}"
